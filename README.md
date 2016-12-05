@@ -121,6 +121,15 @@ Bejelentkezett:
 ![](/docs/images/matrlist.jpg?raw=true)
 ![](/docs/images/matracmegt.jpg?raw=true)
 
+*2.2.2. Dizájntervek:*
+![](/docs/images/1.png?raw=true)
+![](/docs/images/2.png?raw=true)
+![](/docs/images/3.png?raw=true)
+![](/docs/images/4.png?raw=true)
+![](/docs/images/5.png?raw=true)
+![](/docs/images/6.png?raw=true)
+![](/docs/images/7.png?raw=true)
+![](/docs/images/8.png?raw=true)
 *2.2.3. Osztálymodell*
  
  **Adatmodell**

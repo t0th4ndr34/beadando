@@ -168,7 +168,6 @@ Webes IDE: **ADONIS**
     * _databas.js_  
   * **database**
     * **migrations**
-    * **migrations**
       * _matracok.sqlite_    
   * **node_modules**
   * **public**

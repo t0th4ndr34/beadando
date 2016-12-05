@@ -134,11 +134,11 @@ Bejelentkezett:
  
  **Adatmodell**
  
-![](/docs/images/ad.png?raw=true)
+![](/docs/images/adat.png?raw=true)
  
  **Adatbázisterv**
  
-![](/docs/images/ad.png?raw=true)
+![](/docs/images/adat.png?raw=true)
 
  
 ***3. Implementáció***

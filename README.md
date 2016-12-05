@@ -125,11 +125,11 @@ Bejelentkezett:
  
  **Adatmodell**
  
- ![](docs/images/5.jpg)
+
  
  **Adatbázisterv**
  
- ![](docs/images/5.jpg)
+
 
  **Állapotdiagram**
  
@@ -188,9 +188,7 @@ Webes IDE: **ADONIS**
 **4.4.Tesztesetek**
 * User
   * Felhasználó létrehozása
-  * Felhasználó módosítása
   * Bejelentkezés jó, és rossz jelszóval
-  * Medicine
   * Főoldal láthatósága
   * Új matrac feltöltése oldal láthatósága
   * Csak bejelentkezett felhasználó által látható oldal láthatósága
@@ -199,19 +197,22 @@ Webes IDE: **ADONIS**
   
 ***5. Felhasználói dokumentáció***
 
-**Futtatáshoz szükséges operációs rendszer:** Tetszőleges operációs rendszer
+**Futtatáshoz szükséges operációs rendszer:
+** Tetszőleges operációs rendszer
 
-**A futtatáshoz szükséges hardver:** Operációs rendszerek szerint megadva
+**A futtatáshoz szükséges hardver:
+** Operációs rendszerek szerint megadva
 
-**Egyéb követelmények:** Internet böngésző telepítése, JavaScript ajánlott
+**Egyéb követelmények:
+** Internet böngésző telepítése, JavaScript ajánlott
 
 **Program telepítése**
-*cmd megnyitása
-**cd Desktop
+ *cmd megnyitása
+ **cd Desktop
 **git -clone [url]
-**.example.env fájl átnevezése .env-re
+ **.example.env fájl átnevezése .env-re
 **npm install
-**indítás: npm start
+ **indítás: npm start
 **debug: npm run dev
 
 **Program használata:**

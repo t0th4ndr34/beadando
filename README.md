@@ -140,6 +140,7 @@ Bejelentkezett:
 
 Webes IDE: **ADONIS**
 
+**3.1.2. Könyvtárstruktúra**
 * **matracok**
   * **app**
     * **Commands**
@@ -207,13 +208,14 @@ Webes IDE: **ADONIS**
 ** Internet böngésző telepítése, JavaScript ajánlott
 
 **Program telepítése**
- *cmd megnyitása
- **cd Desktop
-**git -clone [url]
- **.example.env fájl átnevezése .env-re
-**npm install
- **indítás: npm start
-**debug: npm run dev
+
+* cmd megnyitása
+  * cd Desktop
+* git -clone [repository elérése]
+* npm install 
+* .example.env fájl átnevezése .env-re
+* indítás: npm start 
+* debug: npm run dev
 
 **Program használata:**
 

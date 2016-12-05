@@ -125,14 +125,12 @@ Bejelentkezett:
  
  **Adatmodell**
  
-
+![](/docs/images/ad.png?raw=true)
  
  **Adatbázisterv**
  
+![](/docs/images/ad.png?raw=true)
 
-
- **Állapotdiagram**
- 
  
 ***3. Implementáció***
 

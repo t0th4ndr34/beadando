@@ -212,6 +212,7 @@ Webes IDE: **ADONIS**
 * cmd megnyitása
   * cd Desktop
 * git -clone [repository elérése]
+* cd [létrejött könyvtár]
 * npm install 
 * .example.env fájl átnevezése .env-re
 * indítás: npm start 

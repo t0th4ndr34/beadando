@@ -263,6 +263,11 @@ Webes IDE: **ADONIS**
 
 ![](/docs/images/ajaxcreate.jpg?raw=true)
 
+* ajaxRegister:
+	* AJAX-os regisztráció, létrehoz egy modális dialógusablakot, ahol meg lehet adni az új felhasználó létrehozásához szükséges adatokat. Hibás adatok esetén jelez, ha pedig helyes adatokat adtunk meg eltűnik a modális ablak.
+
+![](/docs/images/ajaxregister.jpg?raw=true)
+
 **Végpontok bővülése:**
 
 *routes.js*
@@ -272,6 +277,7 @@ Route.group('ajax', function () {
     Route.get('/logout', 'UserController.ajaxLogout')
     Route.delete('/matrac/:id/delete', 'MatracController.ajaxDelete').middleware('auth')
     Route.post('/matrac/create', 'MatracController.ajaxCreate').middleware('auth')
+    Route.post('/register', 'UserController.ajaxRegister')
 }).prefix('/ajax')
 ~~~~
 
@@ -286,6 +292,7 @@ Route.group('ajax', function () {
      * _ajaxDelete.js_
      * _ajaxLogin.js_
      * _ajaxLogut.js_ 
+     * _ajaxRegister.js_ 
   * **resources**
     * **views**
   * **...**

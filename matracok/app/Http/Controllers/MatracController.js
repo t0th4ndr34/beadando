@@ -149,6 +149,37 @@ class MatracController {
         res.ok({ success: true })
     }
     
+    * ajaxCreate (req, res) {
+        const matracData = req.all()
+
+        const rules = {
+            'name': 'required|min:3',
+            'amount': 'required',
+        }
+
+        const validation = yield Validator.validateAll(matracData, rules)
+        if (validation.fails()) {
+            yield req
+                .withAll()
+                .andWith({ errors: validation.messages() })
+                .flash()
+
+            res.ok({ success: false })
+            //return
+        }
+
+        const matrac = new Matrac()
+        matrac.name = matracData.name
+        matrac.user_id = 1
+        matrac.category_id = matracData.category
+        matrac.type_id = matracData.type
+        matrac.amount = matracData.amount
+
+
+        yield matrac.save()
+
+        res.ok({ success: true })
+    }
    
 }
 

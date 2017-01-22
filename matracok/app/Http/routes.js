@@ -39,4 +39,5 @@ Route.group('ajax', function () {
     Route.post('/login', 'UserController.ajaxLogin')
     Route.get('/logout', 'UserController.ajaxLogout')
     Route.delete('/matrac/:id/delete', 'MatracController.ajaxDelete').middleware('auth')
+    Route.post('/matrac/create', 'MatracController.ajaxCreate').middleware('auth')
 }).prefix('/ajax')

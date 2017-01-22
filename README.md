@@ -258,6 +258,11 @@ Webes IDE: **ADONIS**
 
 ![](/docs/images/ajaxdelete.jpg?raw=true)
 
+* ajaxCreate:
+	* AJAX-os létrehozás, létrehoz egy modális dialógusablakot, ahol meg lehet adni az új matrac létrehozásához szükséges adatokat. Hibás adatok esetén jelez, ha pedig helyes adatokat adtunk meg eltűnik a modális ablak.
+
+![](/docs/images/ajaxcreate.jpg?raw=true)
+
 ***7.	Tesztelés:***
 
 * Funkcionális tesztelés [Selenium IDE-vel](https://addons.mozilla.org/hu/firefox/addon/selenium-ide/)

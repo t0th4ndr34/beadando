@@ -16,7 +16,7 @@ $createButton.on('click', function (ev) {
       </div>`)  
 
     var $errorBox = $createModal.find('.alert')
-    $errorBox.text('Rossz belépési adatok.').hide()
+    $errorBox.text('Hibás adatok.').hide()
     
     var $formArea = $createModal.find('.form-area')
     $formArea.load('/matrac/create #createForm', function () {

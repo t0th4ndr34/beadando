@@ -263,6 +263,16 @@ Webes IDE: **ADONIS**
 
 ![](/docs/images/ajaxcreate.jpg?raw=true)
 
+** Végpontok bővülése:**
+~~~~
+Route.group('ajax', function () {
+    Route.post('/login', 'UserController.ajaxLogin')
+    Route.get('/logout', 'UserController.ajaxLogout')
+    Route.delete('/matrac/:id/delete', 'MatracController.ajaxDelete').middleware('auth')
+    Route.post('/matrac/create', 'MatracController.ajaxCreate').middleware('auth')
+}).prefix('/ajax')
+~~~~
+
 ***7.	Tesztelés:***
 
 * Funkcionális tesztelés [Selenium IDE-vel](https://addons.mozilla.org/hu/firefox/addon/selenium-ide/)

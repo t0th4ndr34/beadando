@@ -239,9 +239,9 @@ Webes IDE: **ADONIS**
 
 ***6.	Fejlesztői dokumentáció:***
 
-** A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
+**A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével**
 
-**  AJAX-os funkció:
+** AJAX-os funkció:**
 
 * ajaxLogin:
 	* AJAX-os bejelentkezés, létrehoz egy modális dialógusablakot, ahol meg lehet adni az emailt és a jelszót, a belépés gombra 	kattintva az /ajax/login oldalra küldi az űrlap tartalmát. Hibás adatok esetén kiírja, hogy sikertelen, a mégse gombra kattintva eltűnik a modális ablak.
@@ -263,7 +263,7 @@ Webes IDE: **ADONIS**
 
 ![](/docs/images/ajaxcreate.jpg?raw=true)
 
-** Végpontok bővülése:**
+**Végpontok bővülése:**
 ~~~~
 Route.group('ajax', function () {
     Route.post('/login', 'UserController.ajaxLogin')

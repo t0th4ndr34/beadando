@@ -264,6 +264,8 @@ Webes IDE: **ADONIS**
 ![](/docs/images/ajaxcreate.jpg?raw=true)
 
 **Végpontok bővülése:**
+
+*routes.js*
 ~~~~
 Route.group('ajax', function () {
     Route.post('/login', 'UserController.ajaxLogin')
@@ -272,6 +274,21 @@ Route.group('ajax', function () {
     Route.post('/matrac/create', 'MatracController.ajaxCreate').middleware('auth')
 }).prefix('/ajax')
 ~~~~
+
+**Könyvtárstruktúra bővülése:**
+* **matracok**
+  * **...**
+  * **node_modules**
+  * **public**
+    * **assets**
+    * **scripts**
+     * _ajaxCreate.js_
+     * _ajaxDelete.js_
+     * _ajaxLogin.js_
+     * _ajaxLogut.js_ 
+  * **resources**
+    * **views**
+  * **...**
 
 ***7.	Tesztelés:***
 

@@ -303,13 +303,16 @@ Route.group('ajax', function () {
 * A tesztekhez telepíteni kell a plugint
 * A tesztek a tests mappában találhatóak
 * Tesztesetek:
-  * Rossz bejelentkezés - badaccount
-  * Szerkesztés - edit
-  * Jó bejelentkezés - login
-  * Kijelentkezés - logout
-  * Új matrac hozzáadása - new
-  * Új matrac hozzáadása és eltávolítása - newandremove
-  * Regisztráció - newregister
+ *mytests - Test Suite
+  * login -  bejelentkezés
+  * loginandlogout - be- és ki-jelentkezés
+  * loginandnew -bejelentkezés és új matrac létrehozása
+  * invalidlogin - hibás bejelentkezés
+  * register - regisztráció
+  * invalidregister - hibás regisztráció
+  * invalidnew - hibás matrac létrehozás
+  * invalidandvalidedit - hibás javítás és jó javítás
+  * newanddelete - új matrac létrehozása és törlése
  
 
 

@@ -237,7 +237,44 @@ Webes IDE: **ADONIS**
 8. A matrac oldalán: Törlés gombra kattintva törölhetjük a matracot
 9. A matrac oldalán: Módosítás gombra kattintva módosíthatjuk az adatokat
 
-***6.	Irodalomjegyzék:***
+***6.	Fejlesztői dokumentáció:***
+
+** A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
+
+**  AJAX-os funkció:
+
+* ajaxLogin:
+	* AJAX-os bejelentkezés, létrehoz egy modális dialógusablakot, ahol meg lehet adni az emailt és a jelszót, a belépés gombra 	kattintva az /ajax/login oldalra küldi az űrlap tartalmát. Hibás adatok esetén kiírja, hogy sikertelen, a mégse gombra kattintva eltűnik a modális ablak.
+  
+![](/docs/images/ajaxlogin.jpg?raw=true)
+
+* ajaxLogout:
+	* AJAX-os kijelentkezés, egy modális ablakban megkérdezi a felhasználót, hogy biztosan ki akar-e jelentkezni, az Igen gombra kattintva megtörténik a kijelentkezés és eltűnik a modális ablak, a mégse gombra kattintva eltűnik a modális ablak és nem jelentkezik ki.
+  
+ ![](/docs/images/ajaxlogout.jpg?raw=true)
+	
+* ajaxDelete:
+	* AJAX-os törlés, egy modális ablakban megerősítést kér a felhasználótól, hogy biztosan törli-e az adott matracot, az Igen gombra kattintva megtörténik a törlés és eltűnik a modális ablak, a mégse gombra kattintva eltűnik a modális ablak.
+
+![](/docs/images/ajaxdelete.jpg?raw=true)
+
+***7.	Tesztelés:***
+
+* Funkcionális tesztelés [Selenium IDE-vel](https://addons.mozilla.org/hu/firefox/addon/selenium-ide/)
+* A tesztekhez telepíteni kell a plugint
+* A tesztek a tests mappában találhatóak
+* Tesztesetek:
+  * Rossz bejelentkezés - badaccount
+  * Szerkesztés - edit
+  * Jó bejelentkezés - login
+  * Kijelentkezés - logout
+  * Új matrac hozzáadása - new
+  * Új matrac hozzáadása és eltávolítása - newandremove
+  * Regisztráció - newregister
+ 
+
+
+***8.	Irodalomjegyzék:***
 
 http://webprogramozas.inf.elte.hu/alkfejl.php
 

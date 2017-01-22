@@ -1,7 +1,6 @@
 {% extends 'master' %}
-
+ 
 {% block scripts %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
 {% endblock %}
 
 {% block content %}
@@ -17,7 +16,7 @@
 </div>
 {% endif %}
 
-<form class="form-horizontal" action="/matrac/create" method="POST" data-toggle="validator">
+<form class="form-horizontal" action="/matrac/create" method="POST" id="createForm">
   {{ csrfField }}
 
   <div class="form-group">

@@ -36,7 +36,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="/matracok">Matracok böngészése</a></li>
                 {% if currentUser %}
-                <li><a href="/matrac/create">Új matrac beküldése</a></li>
+                <li><a href="/matrac/create" id="createButton">Új matrac beküldése</a></li>
                 {% endif %}
             </ul>
 
@@ -79,6 +79,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="/scripts/ajaxLogin.js"></script>
     <script src="/scripts/ajaxLogout.js"></script>
+    <script src="/scripts/ajaxCreate.js"></script>
 
     {% block scripts %}{% endblock %}
   </body>
